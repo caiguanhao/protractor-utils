@@ -4,6 +4,9 @@ var crypto = require('crypto');
 
 module.exports = httpGetChecksum;
 
+// since deferred.reject does not really throw errors,
+// we use deferred.resolve('[ERROR] ...')
+
 function httpGetChecksum (algorithm, url) {
   if (arguments.length === 1) {
     url = algorithm;

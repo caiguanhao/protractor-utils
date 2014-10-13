@@ -3,11 +3,14 @@ protractor-utils
 
 Small utils for Protractor.
 
-## httpGetChecksum
+## httpGetChecksum([algorithm, ]url)
+
+Expect a page with given checksum. `algorithm` defaults to `sha1`.
 
 ```js
 var baseUrl = 'http://localhost:9000';
 exports.config = {
+  baseUrl: baseUrl,
   onPrepare: function () {
     expect.myPage = function (path) {
       return {

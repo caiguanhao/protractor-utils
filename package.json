@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caiguanhao/protractor-checksum.git"
+    "url": "https://github.com/caiguanhao/protractor-utils.git"
   },
   "keywords": [
     "protractor",
@@ -15,9 +15,9 @@
   "author": "Cai Guanhao <caiguanhao@gmail.com> (Choi Goon-ho)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/caiguanhao/protractor-checksum/issues"
+    "url": "https://github.com/caiguanhao/protractor-utils/issues"
   },
-  "homepage": "https://github.com/caiguanhao/protractor-checksum",
+  "homepage": "https://github.com/caiguanhao/protractor-utils",
   "dependencies": {
     "q": "^1.0.1"
   }
