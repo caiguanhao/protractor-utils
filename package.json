@@ -1,6 +1,6 @@
 {
   "name": "protractor-utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Small utils for Protractor.",
   "main": "index.js",
   "repository": {
