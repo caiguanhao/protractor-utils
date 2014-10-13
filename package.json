@@ -1,0 +1,24 @@
+{
+  "name": "protractor-utils",
+  "version": "0.0.0",
+  "description": "Small utils for Protractor.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiguanhao/protractor-checksum.git"
+  },
+  "keywords": [
+    "protractor",
+    "utils",
+    "checksum"
+  ],
+  "author": "Cai Guanhao <caiguanhao@gmail.com> (Choi Goon-ho)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiguanhao/protractor-checksum/issues"
+  },
+  "homepage": "https://github.com/caiguanhao/protractor-checksum",
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
